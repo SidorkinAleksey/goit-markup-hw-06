@@ -355,13 +355,7 @@ img {
   font-size: 14px;
   border-color: var(--accent-color);
 }
-.icons-checkbox {
-  background-color: var(--accent-color);
-}
-.checkbox {
-  position: absolute;
-  display: flex;
-}
+
 .icon-checkbox-form {
   opacity: 1;
 }
@@ -372,9 +366,6 @@ img {
 
 .checkbox:checked + .icons-checkbox .icon-checkbox-desc {
   opacity: 1;
-}
-.box-checkbox {
-  position: relative;
 }
 
 .modal-link {
