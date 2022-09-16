@@ -355,27 +355,28 @@ img {
   font-size: 14px;
   border-color: var(--accent-color);
 }
+.icons-checkbox {
+  background-color: var(--accent-color);
+  border: none;
+}
 .checkbox {
   position: absolute;
   display: flex;
 }
 .icon-checkbox-form {
-  fill: greenyellow;
   opacity: 0;
 }
 .checkbox:checked + .icons-checkbox .icon-checkbox-form {
   opacity: 1;
-  background-color: tomato;
 }
 .icon-checkbox-desc {
-  fill: blue;
-
   opacity: 1;
+  border: none;
+  fill: var(--white-text-color);
 }
 
 .checkbox:checked + .icons-checkbox .icon-checkbox-desc {
   opacity: 0;
-  fill: red;
 }
 .box-checkbox {
   position: relative;
