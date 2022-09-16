@@ -722,12 +722,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 28px;
-  width: 200px;
-  padding: 10px 28px;
-  margin-left: 10px;
   border-radius: 4px;
-
+  gap: 10px;
   background-color: var(--accent-color);
 
   border: none;
