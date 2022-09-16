@@ -370,9 +370,11 @@ img {
 .checkbox:checked + .icons-checkbox .icon-checkbox-desc {
   opacity: 1;
 }
+.checkbox-span {
+  margin-left: 7px;
+}
 
 .modal-link {
-  margin-left: 7px;
   font-size: 14px;
   line-height: 1.71;
 
