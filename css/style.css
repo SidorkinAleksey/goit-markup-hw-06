@@ -360,21 +360,22 @@ img {
   display: flex;
 }
 .icon-checkbox-form {
-  fill: red;
-
+  fill: greenyellow;
   opacity: 0;
 }
 .checkbox:checked + .icons-checkbox .icon-checkbox-form {
   opacity: 1;
+  background-color: tomato;
 }
 .icon-checkbox-desc {
-  fill: var(--accent-color);
+  fill: blue;
 
   opacity: 1;
 }
 
 .checkbox:checked + .icons-checkbox .icon-checkbox-desc {
   opacity: 0;
+  fill: red;
 }
 .box-checkbox {
   position: relative;
